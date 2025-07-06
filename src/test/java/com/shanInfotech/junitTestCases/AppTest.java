@@ -15,7 +15,7 @@ public class AppTest {
     @Test
     public void divideTaste() {
     	Calculate div=new Calculate();
-    	double result = div.divide(4,5);
-    	assertEquals(0.8, result,0.001);
+    	double res = div.divide(4,5);
+    	assertEquals(0.8, res,0.001);
     }
 }
