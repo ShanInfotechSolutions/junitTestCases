@@ -13,16 +13,9 @@ public class AppTest {
     }
 
     @Test
-    public void shouldMultiplyWithZero() {
-        Calculate calc = new Calculate();
-        double result = calc.multiply(0, 10);
-        assertEquals(0.0, result, 0.001);
-    }
-
-    @Test
-    public void shouldMultiplyWithNegative() {
-        Calculate calc = new Calculate();
-        double result = calc.multiply(-3, 6);
-        assertEquals(-18.0, result, 0.001);
+    public void divideTaste() {
+    	Calculate div=new Calculate();
+    	double result = div.divide(4,5);
+    	assertEquals(0.8, result,0.001);
     }
 }
